@@ -57,17 +57,7 @@ public:
         }
     }
 
-    /*void removeElement(Element* elem)
-    {
-        if (elem->getNext() != nullptr)
-            elem->getNext()->setPrevious(elem->getPrevious());
-        else
-            tail = elem->getPrevious();
-        if (elem->getPrevious() != nullptr)
-            elem->getPrevious()->setNext(elem->getNext());
-        else
-            head = elem->getNext();
-    }*/
+
     Element* getHead() {
         return head;
     }
